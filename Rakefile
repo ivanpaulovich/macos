@@ -103,28 +103,19 @@ task :brew do
     colordiff
     ctags
     editorconfig
-    erlang
     fzf
     git
-    go
-    kubernetes-helm
     jq
-    kubectl
     libtool
     libuv
     ngrep
     nmap
     nvm
-    postgresql
-    pyenv
     rbenv
     readline
-    redis
     stern
-    travis
     tree
     ucspi-tcp
-    yarn
     watch
     zlib
   |.join(' ')
@@ -138,15 +129,9 @@ task :cask do
   packages = %w|
     iterm2
 
-    1password
-    adobe-creative-cloud
-    authy
-    caffeine
-    chromium
     copyclip
     docker
     dotnet-sdk
-    firefox
     font-awesome-terminal-fonts
     font-fontawesome
     font-monoid
@@ -159,22 +144,10 @@ task :cask do
     font-roboto-slab
     font-robotomono-nerd-font
     font-robotomono-nerd-font-mono
-    google-cloud-sdk
-    gpg-suite
-    mailmate
-    omnigraffle
-    postman
-    resilio-sync
-    sketch
-    slack
     spectacle
     spotify
-    steam
     typora
     visual-studio-code
-
-    rider
-    android-studio
   |.join(' ')
   cask packages
 end
